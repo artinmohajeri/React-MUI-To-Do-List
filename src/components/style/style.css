@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #dce2f7 !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-break: break-all;
+}
+
+@media only screen and (max-width: 360px) {
+    #header{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 440px) {
+    .toDoItem{
+        padding: 5px 0;
+    }
+    .toDoItem span{
+        font-size: 12px !important;
+    }
+}
+
+.toDoBox{
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 500px) {
+    #addTask{
+        width: 100px !important;
+        font-size: 10px !important;
+    }
+    #modalBox{
+        width: 80% !important;
+        font-size: 10px !important;
+    }
+}
+
+#root{
+    animation-name: start-animation;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes start-animation{
+    from {
+        transform: translateY(1000px) rotate(90deg);
+        
+    }
+    to {
+    }
+}
