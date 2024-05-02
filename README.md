@@ -1,6 +1,6 @@
 # Responsive React Application todo
 
-### this is a simple todolist app whcih you can write and add a task, tick it and delete it.
+### this is a simple todolist app which you can write and add a task, tick it and delete it.
 ### I have used materialUI, MUIicons, bootstrap5, CSS3 and javascript ES6 in this project.
 ![greenLine](https://github.com/artinmohajeri/To-Do-List-React-MUI/assets/95845593/13124d50-6fe2-45ab-9d94-c822517779ad)
 
